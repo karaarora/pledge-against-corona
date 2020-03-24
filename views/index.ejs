@@ -16,17 +16,25 @@
             </div>
         </div>
         <div class="right">
-            <div class="quiz">
-                <div class="question">This is a question?</div>
+            <div class="quiz" id = "some-answered">
+                <div class="question" id="question">This is a question?</div>
                 <div class="response">
-                    <div class="btn" d="yes-res">Yes</div>
-                    <div class="btn" id="no-res">No</div>
+                    <div class="btn" id="btn-yes">Yes</div>
+                    <div class="btn" id="btn-no">No</div>
                 </div>
+            </div>
+            <div class="quiz" id = "all-answered" style="display:none">
+                All question answered. We can show some info here later on.
             </div>
             <div class="credits">
                 Some credits here..
             </div>
         </div>
     </div>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="js/quiz/controller.js"></script>
 </body>
 </html>

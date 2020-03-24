@@ -11,3 +11,7 @@ app.listen(process.env.PORT || 3000, () => {
 app.get('/', (req, res) => {
     res.render('index')
 })
+
+app.get('/coronainvaders', (req, res) => {
+    res.render('games/invader')
+})
